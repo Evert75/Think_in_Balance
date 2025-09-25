@@ -1,26 +1,17 @@
 # Thinking_in_Balance
 Research Paper Implementation
 
-Balancing cognitive load across human-AI teams using Cognitive Load Theory and BDI (Brain Dominance Instrument) thinking styles quadrants. 
 
-ABSTRACT: This simulation model demonstrates how an AI could act as a “cognitive load balancer,” assigning and redistributing tasks based on cognitive style and each person’s current effort.
+ABSTRACT: This code simulates a “cognitive load balancer” system for a team of users with different cognitive styles (BDI).
 
+It models:
+	•	Tasks with intrinsic difficulty (load) and type (linked to thinking styles).
+	•	Users with style-specific skill factors (they handle their preferred type of task more efficiently).
+	•	Task assignment and rebalancing by a Coordinator AI that distributes tasks to prevent overload and reduce task switching.
+	•	Execution and completion of tasks, with probabilistic errors influenced by load.
+	•	A full simulation loop where tasks are created, assigned, monitored, possibly reassigned, and eventually completed.
 
-------------------------------------------------------------------------------------------------------------------------------------
-
-It creates a group of users, each with a thinking style (analytical, sequential, interpersonal, creative).
-
-It generates a set of tasks with different types and levels of complexity.
-
-A coordinating AI assigns tasks to users, trying to match task type with the most suitable style while avoiding overload.
-
-If a user becomes overburdened or switches task types too frequently, the AI rebalances by redistributing tasks.
-
-Users complete some tasks in each round, with the possibility of errors if their load is too high.
-
-The cycle repeats until all tasks are completed.
-
-At the end, the simulation presents a summary: how many tasks were completed, how many times they were reassigned, and how they were distributed by type.
+The program logs all these events to show how tasks move across users, how overloads are handled, and when tasks are finished.
 
 
 
