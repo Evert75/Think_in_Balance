@@ -1,7 +1,10 @@
 # Thinking_in_Balance
 Research Paper Implementation
 
-Balancing cognitive load across human-AI teams using Cognitive Load Theory and BDI (Brain Dominance Instrument) thinking styles quadrants. We draw inspiration from the Paper2Agent approach, which wraps core functionalities of research papers into modular “tools” that an AI agent can invoke. 
+Balancing cognitive load across human-AI teams using Cognitive Load Theory and BDI (Brain Dominance Instrument) thinking styles quadrants. 
+
+ABSTRACT: This simulation model demonstrates how an AI could act as a “cognitive load balancer,” assigning and redistributing tasks based on cognitive style and each person’s current effort.
+
 
 ------------------------------------------------------------------------------------------------------------------------------------
 
@@ -19,7 +22,6 @@ The cycle repeats until all tasks are completed.
 
 At the end, the simulation presents a summary: how many tasks were completed, how many times they were reassigned, and how they were distributed by type.
 
-In summary: This model demonstrates how an AI could act as a “cognitive load balancer,” assigning and redistributing tasks based on cognitive style and each person’s current effort.
 
 
 
